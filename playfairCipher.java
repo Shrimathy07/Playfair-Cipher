@@ -28,7 +28,6 @@ int len = txt.length();
 for (int i = 0; i < len; i += 2) {
 char a = txt.charAt(i);
 
-Page:_____
 char b = txt.charAt(i + 1);
 int row1 = positions[a - 'A'].y;
 int row2 = positions[b - 'A'].y;
@@ -61,7 +60,6 @@ sb.insert(i + 1, 'X');
 }
 }
 
-Page:_____
 return codec(sb, 1);
 }
 private static String decode(String s) {
